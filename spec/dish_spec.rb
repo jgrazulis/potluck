@@ -1,3 +1,5 @@
+require 'rspec'
+require './lib/dish'
 
 RSpec.describe Dish do
   it 'exists' do
@@ -6,3 +8,4 @@ RSpec.describe Dish do
     # category = :appetizer
     expect(dish).to be_instance_of(Dish)
   end
+end
