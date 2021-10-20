@@ -1,4 +1,3 @@
-require './lib/dish'
 
 class Dish
 
@@ -11,4 +10,4 @@ class Dish
   end
 
 
-end   
+end
